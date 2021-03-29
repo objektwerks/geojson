@@ -1,0 +1,41 @@
+{
+  "uuid": "27bc1e27-3945-4c65-886f-38f5009f37fb",
+  "callbackUrl": "http://dchivcpdb01:8085/decide?layerName=NSRoad&hereQuadKey=19319229&version=28",
+  "ecosystem": "NSRoad",
+  "changedLayers": ["1", "2", "3"],
+  "geometry": { "type": "GeometryCollection",
+    "geometries": [
+      { "type": "Point",
+        "coordinates": [100.0, 0.0]
+      },
+      { "type": "LineString",
+        "coordinates": [ [101.0, 0.0], [102.0, 1.0] ]
+      },
+      { "type": "Polygon",
+        "coordinates": [
+          [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0] ]
+        ]
+      },
+      { "type": "MultiPoint",
+        "coordinates": [ [100.0, 0.0], [101.0, 1.0] ]
+      },
+      { "type": "MultiLineString",
+        "coordinates": [
+          [ [100.0, 0.0], [101.0, 1.0] ],
+          [ [102.0, 2.0], [103.0, 3.0] ]
+        ]
+      },
+      { "type": "MultiPolygon",
+        "coordinates": [
+          [[[102.0, 2.0], [103.0, 2.0], [103.0, 3.0], [102.0, 3.0], [102.0, 2.0]]],
+          [[[100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0]],
+            [[100.2, 0.2], [100.8, 0.2], [100.8, 0.8], [100.2, 0.8], [100.2, 0.2]]]
+        ]
+      }
+    ]
+  },
+  "childIds": ["1", "2", "3"],
+  "parentId": "1",
+  "layeredDescriptors": {"1":"a", "2":"b", "3": "c"},
+  "isValidationComplete": true
+}
