@@ -1,6 +1,6 @@
 Geojson
 -------
->Geojson json test.
+>Geojson feature test.
 
 Test
 ----
