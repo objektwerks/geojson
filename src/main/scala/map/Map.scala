@@ -13,8 +13,6 @@ case class MapGeometry(uuid: String = UUID.randomUUID().toString,
 
 object MapGeometry {
   private implicit val mapGeometryFormat = Json.format[MapGeometry]
-  private implicit val mapGeometryRead = Json.reads[MapGeometry]
-  private implicit val mapGeometryWrite = Json.writes[MapGeometry]
 
   def toJson(geometry: MapGeometry): String = Json.toJson(geometry).toString
 
@@ -33,8 +31,6 @@ case class MapGeometryValidation(uuid: String,
 
 object MapGeometryValidation {
   private implicit val mapGeometryValidationFormat = Json.format[MapGeometryValidation]
-  private implicit val mapGeometryValidationRead = Json.reads[MapGeometryValidation]
-  private implicit val mapGeometryValidationWrite = Json.writes[MapGeometryValidation]
 
   def toJson(geometry: MapGeometryValidation): String = Json.toJson(geometry).toString
 

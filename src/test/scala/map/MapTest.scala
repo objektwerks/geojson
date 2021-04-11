@@ -1,11 +1,11 @@
 package map
 
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 import org.slf4j.{Logger, LoggerFactory}
 
 import scala.io.Source
 
-class MapTest extends FunSuite {
+class MapTest extends AnyFunSuite {
   val log: Logger = LoggerFactory.getLogger(this.getClass)
 
   val geometryJson = Source.fromInputStream(getClass.getResourceAsStream("/map.geometry.json")).mkString
