@@ -7,6 +7,6 @@ libraryDependencies ++= {
     "com.typesafe.play.extras" %% "play-geojson" % "1.4.0",
     "org.slf4j" % "slf4j-api" % "1.7.32" % Test,
     "ch.qos.logback" % "logback-classic" % "1.2.11" % Test,
-    "org.scalatest" %% "scalatest" % "3.2.10" % Test
+    "org.scalatest" %% "scalatest" % "3.2.11" % Test
   )
 }
